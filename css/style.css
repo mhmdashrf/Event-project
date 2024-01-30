@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+    color: #FFF !important;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 60px;
+}
+li{
+    list-style: none;
+    text-transform: capitalize;
+}
+.bg-img{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:670px ;
+    position: relative;
+  
+}
+.layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+   
+}
+
+.nav-menu ul{
+  background-color: black;
+  position: fixed;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  z-index: 999;
+  top: 0;
+  
+}
+.nav-menu ul .close{
+    cursor: pointer;
+}
+.nav-menu ul .close:hover{
+   color: #f01f26 !important
+}
+.nav-menu ul li{
+    margin-top: 20px;
+    font-size: 25px;
+   
+}
+.nav-menu ul li a{
+    color: #fff;
+    transition: 0.5s;
+}
+.nav-menu ul li a:hover{
+    color: rgba(214, 46, 51 , 0.6);
+}
+.contact{
+    padding: 16px;
+   margin-left: 200px;
+}
+.bars-icon{
+     cursor: pointer;
+}
+.accordion {
+    max-width: 700px;
+    background: linear-gradient(to bottom right, #FFF, #f7f7f7);
+    background: rgba(214, 46, 51 , 0.6);
+    margin: 0 auto;
+    border-radius: 3px;
+    margin-top: 60px;
+   
+}
+.heading {
+    color: #FFF;
+    font-size:26px;
+    border-bottom: 1px solid #e7e7e7;
+	letter-spacing: 0.8px;
+    padding: 15px;
+    cursor: pointer;  
+    text-align: center;
+    transition: 0.5s;
+}
+.heading:nth-last-child(2){
+    border-bottom:0; 
+}
+.heading:hover {
+    background: rgba(219, 54, 59, 0.6);
+    border-radius: 0;
+}
+.heading:first-child:hover {
+    border-radius: 3px 3px 0 0;
+}
+.heading:nth-last-child(2):hover{
+    border-radius:0 0 3px 3px;
+}
+.heading::before {
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    border-top: 7px solid #f5f5f5;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    float: right;
+    transform: rotate(0);
+    transition: all 0.5s;
+    margin-top: 5px;
+}
+.active.heading::before {
+    transform: rotate(-180deg);
+}
+.not-active.heading::before {
+    transform: rotate(0deg);
+}
+.contents {
+	display: none;
+	background:#ccc;
+	padding: 15px;
+    color:#333;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+.details{
+margin-top: 60px;
+}
+.img-dateils{
+background-image: url(../images/invitation-2508607__340.jpg);
+background-position: center center;
+background-size: 100% 100%;
+height: 400px;
+margin: 50px 0px;
+position: relative;
+}
+.layer-dateils{
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+background-color: rgba(195, 15, 21, 0.6);
+}
+.counter{
+ width: 200px;
+ height: 150px;
+ border: 2px solid #FFF;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    background-color: inherit;
+    border: 1px solid #cccccc49;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 15px;
+}
+.icon i{
+ font-size: 20px;
+}
+.icon:hover{
+    background-color: rgba(226, 58, 63, 0.951);
+    color: #333;
+    border: none
+}
+.contact{
+    margin-top: 80px;
+}
+form .textarea{
+    padding-bottom: 100px;
+}
